@@ -5,7 +5,7 @@ from datetime import datetime
 def main():
     window = tk.Tk()
     window.title(HELLO_WORLD_TITLE)
-    window.geometry("350x200")
+    window.geometry("600x400")
     window.configure(bg="green")  # Fond par défaut (modifié dans les commits)
 
     label = tk.Label(
