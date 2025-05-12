@@ -6,7 +6,7 @@ def main():
     window = tk.Tk()
     window.title(HELLO_WORLD_TITLE)
     window.geometry("350x200")
-    window.configure(bg="white")  # Fond par défaut (modifié dans les commits)
+    window.configure(bg="green")  # Fond par défaut (modifié dans les commits)
 
     label = tk.Label(
         window,
